@@ -577,3 +577,120 @@ footer .copyright {
 .hover-img:hover:before {
     height: 100%;
 }
+/* Mobile phones like iPhone */
+@media only screen and (min-width : 320px) {
+	* {
+		margin: 0 auto
+	}
+	.container {
+		padding: 15px;
+		height: 300px;
+		width: 280px;
+		float: right;
+	}
+	.container1 {
+		padding: 15px;
+		height: 350px;
+		width: 280px;
+		float: right;
+	}
+	#size {
+		width: 100px;
+		margin-left: 5px;
+		text-align: center;
+	}
+	.flip-card {
+		margin-top: 20px;
+		margin-left: 80px;
+		width: 45%;
+	}
+}
+
+/* Mobile phones with larger screen */
+@media only screen and (min-width : 480px) {
+
+	.container {
+		width: 430px;
+		height: 300px;
+		float: right;
+	}
+	.container1 {
+		background-color: green;
+		width: 430px;
+		height: 350px;
+		float: right;
+	}
+	.flip-card {
+		margin-top: 20px;
+		margin-left: 120px;
+		width: 40%;
+	}
+}
+
+/* Mobile phones in Portrait view/Tablets/Phablets */
+@media only screen and (min-width : 600px) {
+
+	.container {
+		width: 540px;
+		float: right;
+	}
+	.container1 {
+		width: 540px;
+		float: right;
+	}
+}
+
+/* Tablets/Phablets */
+@media only screen and (min-width : 800px) {
+
+	.container {
+		width: 240px;
+		height: 400px;
+		float: right;
+	}
+	.container1 {
+		width: 480px;
+		height: 400px;
+		float: left;
+	}
+}
+
+/* Desktop/Laptops */
+@media only screen and (min-width : 1024px) {
+
+	.container {
+		width: 240px;
+		height: 400px;
+		float: right;
+	}
+	.container1 {
+		width: 700px;
+		height: 400px;
+		float: left;
+	}
+	.flip-card {
+		margin-top: 50px;
+		margin-left: 120px;
+		width: 40%;
+	}
+}
+
+/* Desktop/Laptops ----------- */
+@media only screen and (min-width : 1200px) {
+
+	.container {
+		width: 480px;
+		height: 500px;
+		float: right;
+	}
+	.container1 {
+		width: 660px;
+		height: 500px;
+		float: left;
+	}
+	.flip-card {
+		margin-top: 50px;
+		margin-left: 120px;
+		width: 50%;
+	}
+}
