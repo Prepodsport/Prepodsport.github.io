@@ -606,70 +606,7 @@ footer .copyright {
 .hover-img:hover:before {
     height: 100%;
 }
-/* Responsive site layout*/
 
-/* Large desktops and laptops */
-@media (min-width: 1200px) {
-
-    body {
-        font-size: 14px;
-    }
-
-    .container {
-        width: 72%;
-        height: 915px;
-        line-height: 1.1rem;
-        overflow-x: hidden;
-        overflow-y: scroll;
-    }
-
-    .container1 {
-        width: 72%;
-        height: 915px;
-        line-height: 1.5rem;
-        overflow-x: hidden;
-        overflow-y: scroll;
-    }
-
-    .skills {
-        text-align: right; /* Right-align text */
-        padding-top: 10px; /* Add top padding */
-        padding-bottom: 10px; /* Add bottom padding */
-        color: white; /* White text color */
-    }
-
-    .html {
-        width: 90%;
-        background-color: #04AA6D;
-    }
-
-    .css {
-        width: 80%;
-        background-color: #2196F3;
-    }
-
-    .js {
-        width: 65%;
-        background-color: #f44336;
-    }
-
-    .python {
-        width: 60%;
-        background-color: #808080;
-    }
-
-    .footer {
-        position: relative;
-        width: 100%;
-        background: #3586ff;
-        min-height: 50px;
-        padding: 20px 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-}
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 
