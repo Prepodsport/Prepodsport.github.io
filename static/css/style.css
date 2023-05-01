@@ -691,7 +691,7 @@ footer .copyright {
         overflow-x: hidden;
         overflow-y: scroll;
     }
-    .main {
+    .footer {
         width: 72%;
         height: 915px;
         line-height: 1.5rem;
@@ -702,27 +702,64 @@ footer .copyright {
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-
     body {
         font-size: 12px;
     }
 
-    .side-bar {
+    .container {
         width: 35%;
-        min-height: 100vh;
-        line-height: 1.4rem;
+        height: 915px;
+        line-height: 1.1rem;
         overflow-x: hidden;
         overflow-y: scroll;
     }
 
-    .main {
+    .container1 {
+        width: 35%;
+        height: 915px;
+        line-height: 1.5rem;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .skills {
+        text-align: right; /* Right-align text */
+        padding-top: 10px; /* Add top padding */
+        padding-bottom: 10px; /* Add bottom padding */
+        color: white; /* White text color */
+    }
+
+    .html {
+        width: 90%;
+        background-color: #04AA6D;
+    }
+
+    .css {
+        width: 80%;
+        background-color: #2196F3;
+    }
+
+    .js {
         width: 65%;
-        min-height: 100vh;
-        line-height: 1.6rem;
-        overflow-x: hidden;
-        overflow-y: scroll;
+        background-color: #f44336;
     }
 
+    .python {
+        width: 60%;
+        background-color: #808080;
+    }
+
+    .footer {
+        position: relative;
+        width: 100%;
+        background: #3586ff;
+        min-height: 50px;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 /* Landscape phones and portrait tablets */
@@ -732,96 +769,183 @@ footer .copyright {
         font-size: 11px;
     }
 
-    .side-bar {
+    .container {
         width: 40%;
         height: 915px;
         line-height: 1.1rem;
         overflow-x: hidden;
         overflow-y: scroll;
     }
-
-    .main {
-        width: 60%;
+    .container1 {
+        width: 40%;
         height: 915px;
-        line-height: 1rem;
+        line-height: 1.1rem;
         overflow-x: hidden;
         overflow-y: scroll;
+    }
+    .skills {
+        text-align: right; /* Right-align text */
+        padding-top: 10px; /* Add top padding */
+        padding-bottom: 10px; /* Add bottom padding */
+        color: white; /* White text color */
+    }
+
+    .html {
+        width: 90%;
+        background-color: #04AA6D;
+    }
+
+    .css {
+        width: 80%;
+        background-color: #2196F3;
+    }
+
+    .js {
+        width: 65%;
+        background-color: #f44336;
+    }
+
+    .python {
+        width: 60%;
+        background-color: #808080;
+    }
+
+    .footer {
+        position: relative;
+        width: 100%;
+        background: #3586ff;
+        min-height: 50px;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
 
-    .side-bar {
-        width: 40%;
-        font-size: 8px;
-        min-height: 100vh;
-        line-height: 1rem;
-        overflow-x: hidden;
-        overflow-y: scroll;
+  .container {
+    width: 40%;
+    font-size: 8px;
+    min-height: 100vh;
+    line-height: 1rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .container1 {
+    width: 40%;
+    font-size: 8px;
+    min-height: 100vh;
+    line-height: 1rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+
+  .html {
+    width: 90%;
+    background-color: #04AA6D;
+  }
+
+  .css {
+    width: 80%;
+    background-color: #2196F3;
+  }
+
+  .js {
+    width: 65%;
+    background-color: #f44336;
+  }
+
+  .python {
+    width: 60%;
+    background-color: #808080;
+  }
+
+  .footer {
+    position: relative;
+    width: 65%;
+    background: #3586ff;
+    min-height: 50px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* Galaxy Fold portrait */
+  @media (max-width: 280px) {
+
+    .container {
+      width: 40%;
+      min-height: 100vh;
+      line-height: 1rem;
+      font-size: 6px;
+      overflow-x: hidden;
+      overflow-y: scroll;
     }
 
-    .main {
-        width: 60%;
-        min-height: 100vh;
-        line-height: 0.7rem;
-        font-size: 11px;
-        overflow-x: hidden;
-        overflow-y: scroll;
+    .container {
+      width: 60%;
+      min-height: 100vh;
+      line-height: 0.7rem;
+      font-size: 10px;
+      overflow-x: hidden;
+      overflow-y: scroll;
     }
 
     .content {
-        margin: 0.5rem 1rem;
+      margin: 0.5rem 0.4rem;
     }
 
-    .language-skills.bar {
-        width: 75%;
+    .skills {
+      text-align: right; /* Right-align text */
+      padding-top: 10px; /* Add top padding */
+      padding-bottom: 10px; /* Add bottom padding */
+      color: white; /* White text color */
     }
 
-    .language-skills.bar div:nth-child(-n+3) {
-        background-color: gold;
+    .html {
+      width: 90%;
+      background-color: #04AA6D;
     }
 
-    .language-skills.scale {
-        width: 75%;
+    .css {
+      width: 80%;
+      background-color: #2196F3;
     }
 
-    #Greek {
-        width: 25%;
-        background-color: gold;
-        border: 0.01rem solid black;
-        text-align: end;
-        padding-right: 0.2rem;
-    }
-}
-
-/* Galaxy Fold portrait */
-@media (max-width: 280px) {
-
-    .photo {
-        margin: 0.5rem auto;
-        height: 6rem;
+    .js {
+      width: 65%;
+      background-color: #f44336;
     }
 
-    .side-bar {
-        width: 40%;
-        min-height: 100vh;
-        line-height: 1rem;
-        font-size: 6px;
-        overflow-x: hidden;
-        overflow-y: scroll;
+    .python {
+      width: 60%;
+      background-color: #808080;
     }
 
-    .main {
-        width: 60%;
-        min-height: 100vh;
-        line-height: 0.7rem;
-        font-size: 10px;
-        overflow-x: hidden;
-        overflow-y: scroll;
+    .footer {
+      position: relative;
+      width: 45%;
+      background: #3586ff;
+      min-height: 50px;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
 
-    .content {
-        margin: 0.5rem 0.4rem;
-    }
+  }
 }
