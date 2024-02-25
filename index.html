@@ -299,6 +299,36 @@
         <img src="static/img/lang/lang__fr.png" alt="fr" data-google-lang="fr" class="language__img">
         <img src="static/img/lang/lang__pt.png" alt="pt" data-google-lang="pt" class="language__img">
     </div>   
+
+
+
+
+<div class="container3">
+<form id="contactus" action="" method="post">
+<h3>Форма обратной связи</h3><fieldset>  
+<input placeholder="name" type="text" tabindex="1" required autofocus> </fieldset>
+
+<fieldset> <input placeholder="Email Address" type="email" tabindex="2" required> </fieldset>
+   
+<fieldset> <input placeholder="Phone Number" type="tel" tabindex="3" required> </fieldset>
+   
+<fieldset> <textarea placeholder="Type your message here..." tabindex="5" required></textarea> </fieldset>
+   
+<fieldset> <button name="submit" type="submit" id="contactus-submit" data-submit="Отправка"><i id="icon" class=""></i> Отправить сейчас</button> </fieldset>
+   
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+    
     <br><br><br><br><br><br><br><br> 
     <footer class="footer">
         <div class="waves">
@@ -331,5 +361,24 @@ Tu.tScroll({
   't-element': '.zoomIn'
 })
 </script>
+    $(document).ready(function(){
+
+$("#contactus-submit").click(function(){
+var r= $('');
+
+$("#contactus-submit").html(r);
+
+$("#contactus-submit").append(" Sending...");
+
+$("#contactus-submit").attr("disabled", true);
+setTimeout(function(){
+$("#contactus-submit").attr("disabled", false);
+$("#contactus-submit").html('Send');
+
+}, 3000);
+
+});
+
+});
 </body>
 </html>
