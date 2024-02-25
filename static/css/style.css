@@ -277,6 +277,7 @@ footer .copyright {
 .section-title {
   color: white;
   text-align: center;
+  border-radius: 8px;
 }
 .skills {
   text-align: right;
@@ -286,7 +287,7 @@ footer .copyright {
   border-radius: 8px;
 }
 
-.html {width: 90%; background-color: #04AA6D; border-radius: 8px;}
+.html {width: 90%; background-color: #04AA6D;}
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
 .python {width: 60%; background-color: #808080;}
