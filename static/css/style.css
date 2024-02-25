@@ -273,11 +273,11 @@ footer .copyright {
 .container1 {
   width: 100%;
   background-color: #ddd;
+  border-radius: 8px;
 }
 .section-title {
   color: white;
   text-align: center;
-  border-radius: 8px;
 }
 .skills {
   text-align: right;
