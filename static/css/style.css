@@ -280,14 +280,14 @@ footer .copyright {
   text-align: center;
 }
 .skills {
-  text-align: right;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
   border-radius: 8px;
 }
 
-.html {width: 90%; background-color: #04AA6D;}
+.html {width: 90%; background-color: #04AA6D; font-size: 18px;}
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
 .python {width: 60%; background-color: #808080;}
