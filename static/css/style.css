@@ -283,6 +283,7 @@ footer .copyright {
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
+  border-radius: 8px;
 }
 
 .html {width: 90%; background-color: #04AA6D; border-radius: 8px;}
