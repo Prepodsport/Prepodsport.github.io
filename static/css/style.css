@@ -267,9 +267,6 @@ footer .copyright {
   transform: rotateY(180deg);
 }
 
-* {box-sizing:border-box}
-
-
 .container1 {
   width: 100%;
   background-color: #ddd;
