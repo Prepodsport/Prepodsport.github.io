@@ -278,6 +278,7 @@ footer .copyright {
 .section-title {
   color: white;
   text-align: center;
+  font-size: 180px;
 }
 .skills {
   text-align: right;
@@ -285,7 +286,6 @@ footer .copyright {
   padding-bottom: 10px;
   color: white;
   border-radius: 8px;
-  font-size: 180px;
 }
 
 .html {width: 90%; background-color: #04AA6D;}
